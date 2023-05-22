@@ -19,8 +19,8 @@ public class Conta {
             changeState(new PositiveState(this));
         else if (saldo >= -1000)
             changeState(new NegativeState(this));
-        else
-            changeState(new BlockedState(this));
+        
+        
     }
 
     public Double getSaldo() {
